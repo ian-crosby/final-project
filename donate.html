@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>About Us</title>
+    <title>Donate</title>
 
     <style>
 
@@ -28,8 +28,9 @@ h4 {
   margin-right: 150px;
 }
 
-img {
-
+form {
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
     </style>
@@ -45,25 +46,48 @@ img {
     <li class="nav-item">
       <a class="nav-link" href="#">Home</a>
     </li>
-    <li class="nav-item active">
-      <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
-    </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Donate</a>
+      <a class="nav-link" href="#">About Us</a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Donate <span class="sr-only">(current)</span></a>
     </li>
   </ul>
 </div>
 </nav>
 
-    <h1><b>About Us</b></h1>
+    <h1><b>Donate</b></h1>
 
     <h4>
-Tens of thousands of volunteers, donors and supporters advance the Make-A-Wish® vision to grant the wish of every child diagnosed with a critical illness. In the United States and its territories, on average, a wish is granted every 34 minutes. We believe a wish experience can be a game-changer. This one belief guides us and inspires us to grant wishes that change the lives of the kids we serve.
+When you donate, you're giving children renewed strength to fight their illnesses, bringing families closer together and uniting entire communities. You can change lives.
 </h4>
 
 <div>
-<img src="images/make-a-wish-foundation.jpg" class="rounded align-right mx-auto d-block" alt="About Us">
+<img src="images/greeting-banner.jpg" class="rounded align-right mx-auto d-block" alt="About Us">
 </div>
+
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+   <label for="exampleFormControlSelect1">Donation Amount</label>
+   <select class="form-control" id="exampleFormControlSelect1">
+     <option>$25</option>
+     <option>$50</option>
+     <option>$100</option>
+     <option>$250</option>
+     <option>$500</option>
+   </select>
+ </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Credit Card Number</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="XXXX-XXXX-XXXX-XXXX">
+  </div>
+  <button type="submit" class="btn btn-primary">Donate</button>
+</form>
 
 
     <!-- Optional JavaScript -->
